@@ -1,0 +1,6 @@
+core = "7.x"
+description = "WK SEO module."
+name = "WK SEO"
+
+dependencies[] = metatag (>= 1.7)
+dependencies[] = yoast_seo

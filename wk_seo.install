@@ -1,0 +1,13 @@
+<?php
+
+/**
+* Enable module
+*/
+function wk_seo_update_7001() {
+    module_enable(array(
+      'metatag',
+      'yoast_seo',
+      'wk_seo',
+    ));
+    features_revert_module('wk_seo');
+}
