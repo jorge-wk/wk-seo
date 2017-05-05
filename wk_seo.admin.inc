@@ -10,6 +10,7 @@
  * Form builder
  */
 function wk_seo_admin_settings() {
+    global $base_url;
     $allowed_extensions = 'jpg jpeg gif png';
     $form = array();
     // $form['og']['title'] = array(
