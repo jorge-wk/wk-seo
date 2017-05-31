@@ -223,9 +223,7 @@ function wk_seo_getFidFromUrl($filename){
 }
 
 function wk_seo_configuration_form_submit($form, &$form_state) {
-  dpm('saving');
   if (!empty($form_state['values']['yoast_seo']['wk_seo_social'])) {
-    dpm($form_state['values']['yoast_seo']['wk_seo_social']);
     $langcode = $form_state['values']['language'];
     $wk_seo_social = $form_state['values']['yoast_seo']['wk_seo_social'][$langcode];
     $metatags_values = $form_state['values']['metatags'][$langcode];
